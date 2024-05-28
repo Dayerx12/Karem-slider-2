@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title></title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link href="Contacto.css" rel="stylesheet">
+    </head>
+    <body>
+        <form action="[URL del servidor que procesará el formulario]" method="POST">
+            <label for="nombre">Nombre Completo:</label><br>
+            <input type="text" id="nombre" name="nombre" required><br><br>
+          <label for="empresa">Empresa/Organización:</label><br>
+          <input type="text" id="empresa" name="empresa" required><br><br>
+          
+          <label for="email">Correo Electrónico:</label><br>
+          <input type="email" id="email" name="email" required><br><br>
+          
+          <label for="telefono">Número de Teléfono:</label><br>
+          <input type="tel" id="telefono" name="telefono" required><br><br>
+          
+          <label for="proyecto">Descripción del Proyecto:</label><br>
+          
+            <textarea id="proyecto" name="proyecto" rows="4" required></textarea><br><br>
+          <label for="fecha">Fecha del Evento (si aplica):</label><br>
+          <input type="date" id="fecha" name="fecha"><br><br>
+          
+          <label for="mensaje">Mensaje Adicional:</label><br>
+          
+            <textarea id="mensaje" name="mensaje" rows="4"></textarea><br><br>
+            <input type="submit" value="Enviar">
+          </form>
+    
+    </body>
+</html>
